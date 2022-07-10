@@ -9,13 +9,18 @@
     </a>
 
     <!-- Divider -->
-    <hr class="sidebar-divider my-0">
+    <hr class="sidebar-divider my-0 mb-4">
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="{{ route('admin.dashboard') }}">
+        <a class="nav-link" href="{{ route('admin.dashboard') }}" style="padding: 5px 16px">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('admin.categories') }}" style="padding: 5px 16px">
+            <i class="fas fa-fw fa-list"></i>
+            <span>Categories</span></a>
     </li>
 
     <!-- Nav Item - Pages Collapse Menu -->
