@@ -19,13 +19,18 @@
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{{ route('admin.categories') }}" style="padding: 5px 16px">
-            <i class="fas fa-fw fa-list"></i>
+            <i class="fas fa-tags"></i>
             <span>Categories</span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{{ route('admin.tasks') }}" style="padding: 5px 16px">
             <i class="fas fa-fw fa-list"></i>
             <span>Tasks</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('admin.users') }}" style="padding: 5px 16px">
+            <i class="fas fa-fw fa-users"></i>
+            <span>Users</span></a>
     </li>
 
     <!-- Nav Item - Pages Collapse Menu -->
